@@ -1,8 +1,4 @@
 #!/bin/bash
-
-cwd=$(pwd)
-absolute_path=$(cd "$cwd" && pwd)
-
-echo "Absolute path of the current working directory:"
-echo "$absolute_path"
+cd "$(dirname "$0")"
+echo "Absolute path of the current working directory:" echo "$(pwd)"
 

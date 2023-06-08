@@ -1,2 +1,0 @@
-navigating shell
-using permissions
